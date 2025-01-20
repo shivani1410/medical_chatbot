@@ -1,11 +1,9 @@
 from pathlib import Path
 import os
-import sqlite3
 from datasets import load_dataset
 from langchain.agents import create_sql_agent
 from langchain.sql_database import SQLDatabase
 from langchain.agents.agent_types import AgentType
-from langchain.callbacks import StreamlitCallbackHandler
 from langchain.agents.agent_toolkits import SQLDatabaseToolkit
 from sqlalchemy import create_engine
 from langchain_groq import ChatGroq
@@ -16,11 +14,9 @@ from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_astradb import AstraDBVectorStore
 from langchain.schema import Document
 import sqlitecloud
-from langchain_core.messages import AIMessage,HumanMessage
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from langserve import add_routes
