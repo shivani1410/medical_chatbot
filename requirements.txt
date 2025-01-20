@@ -22,7 +22,7 @@ langchain-groq
 langchain-astradb
 sqlitecloud
 sqlalchemy-sqlitecloud
-uvcorn
+uvicorn
 fastapi
 langserve
 starlette
