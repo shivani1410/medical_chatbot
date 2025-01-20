@@ -171,6 +171,6 @@ async def query(request: QueryRequest):
 async def health_check():
   return "health check is successful"
 
-# if __name__=="__main__":
-#     import uvicorn
-#     uvicorn.run(app,host="127.0.0.1",port=8000)
+if __name__=="__main__":
+    import uvicorn
+    uvicorn.run(app,host="127.0.0.1",port=8000)
