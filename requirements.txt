@@ -2,11 +2,8 @@ langchain
 langchain-community 
 langchain-core 
 langchain-huggingface  
-langchain-text-splitters 
 langchain_chroma 
 langchain_text_splitters
-streamlit
-chroma
 datasets
 sentence_transformers
 huggingface_hub
@@ -14,9 +11,6 @@ ipykernel
 pandas
 mysql-connector-python
 SQLAlchemy
-duckdb
-bs4
-faiss-cpu
 pysqlite3-binary
 langchain-groq 
 langchain-astradb
