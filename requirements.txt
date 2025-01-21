@@ -1,3 +1,4 @@
+torch==1.12.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
 langchain 
 langchain-community 
 langchain-core 
@@ -10,6 +11,7 @@ langchain-groq
 langchain-astradb
 sqlitecloud
 sqlalchemy-sqlitecloud
+uvicorn
 fastapi
 langserve
 starlette
